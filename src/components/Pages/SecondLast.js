@@ -11,7 +11,6 @@ const SecondLast = () => {
             <p className='dscvrsc2'>A UNIT OF INDIAN MOUNTAINS ROVER</p>
             <p className='dscvrsc2'>Near Govt Printing press ,Lower Bazar MAnali</p>
             <p className='dscvrsc2'>manali Highway ,NH205, HIMACHAL PRADESH</p>
-
         </div>
     )
 }

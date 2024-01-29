@@ -4,23 +4,23 @@ import { faFacebookF, faInstagram, faTwitter, faWhatsapp, faYoutube } from '@for
 import { Link } from 'react-router-dom'
 
 const About = () => {
-  return (
-    <div>
-         <div className='header'>
-        <div className='row ghi'>
-          <div className='col-1 threedots'>
-          </div>
-          <div className='col-8'>
+    return (
+        <div>
+            <div className='header'>
+                <div className='row ghi'>
+                    <div className='col-1 threedots'>
+                    </div>
+                    <div className='col-8'>
 
-            <input className='searchbar' placeholder='Search Or Enter Website Name'></input>
-          </div>
-          <div className='col-2'>
-            <h4 className='ylo'>YOLO TRAVELS</h4>
-          </div>
-        </div>
-      </div>
+                        <input className='searchbar' placeholder='Search Or Enter Website Name'></input>
+                    </div>
+                    <div className='col-2'>
+                        <h4 className='ylo'>YOLO TRAVELS</h4>
+                    </div>
+                </div>
+            </div>
 
-      <div className='aboutsctn'>
+            <div className='aboutsctn'>
                 <div className='row firstrw'>
                     <div className='col-3'>
                         <p className='p1'>84 Forest Ave, Lake Grove-Manali..</p>
@@ -68,13 +68,13 @@ const About = () => {
                                         <Link to="/home"><a class="nav-link hme1" href="#">HOME</a></Link>
                                     </li>
                                     <li class="nav-item">
-                                    <Link to="/about"><a class="nav-link hme1" href="#">ABOUT</a></Link>    
+                                        <Link to="/about"><a class="nav-link hme1" href="#">ABOUT</a></Link>
                                     </li>
                                     <li class="nav-item">
-                                    <Link to="/packages"> <a class="nav-link hme1" href="#">PACKAGES</a></Link>   
+                                        <Link to="/packages"> <a class="nav-link hme1" href="#">PACKAGES</a></Link>
                                     </li>
                                     <li class="nav-item">
-                                    <Link to="/contact"><a class="nav-link hme1" href="#">CONTACT US</a></Link> 
+                                        <Link to="/contact"><a class="nav-link hme1" href="#">CONTACT US</a></Link>
                                     </li>
                                 </ul>
                             </div>
@@ -83,14 +83,125 @@ const About = () => {
                     </div>
                 </div>
                 <div className='row aboutthirdrw'>
-                    
-
-                    
+                    <h1 className='aboutus'>About Us</h1>
                 </div>
             </div>
-      
-    </div>
-  )
+            <div className='row mrgnrew'>
+                <div className='col-6'>
+                    <div className='row'>
+                        <div className='col-5 frstimg'></div>
+                        <div className='col-5 secondimg'></div>
+                    </div>
+                </div>
+                <div className='col-6'>
+                    <h1 className='abtpgeab'>About Our Company And What We Are Offer.</h1>
+                    <div className='row'>
+                        <button type="button" class="btn btn-danger tenyear">10<br></br>Years Experience</button>
+                        <button type="button" class="btn btn-danger tenyear">100+<br></br>Tour Guide</button>
+                        <button type="button" class="btn btn-danger tenyear">500+<br></br>Traveler Connect</button>
+                    </div>
+                    <p className='duis'>Duis rutrum nisl urna. Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus. Suspendissendt blandit interdum. Sed pellentesque at nunc eget consente consectetur.Duis rutrum nisl urna. Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus. Suspendissendt blandit interdum. Sed pellentesque at nunc consectetur.Duis rutrum nisl urna. Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus. Suspendissendt blandit interdum. Sed pellentesque at nunc consectetur.Duis rutrum nisl urna. Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus. Suspendissendt blandit interdum. Sed pellentesque at nunc consectetur.</p>
+                </div>
+            </div>
+
+            <div className='row packagebookmainrow'>
+                <div className='col-6'>
+                    <h1 className='pckg1'>Why Package Book With Yolo Travels</h1>
+                    <button type="button" class="btn btn-light panchsw">
+                        <div className='row'>
+                            <div className='col-3'>
+                                <p className='hhh'>500+</p>
+                                <p className='iii'>Awesome Tour</p>
+
+                            </div>
+                            <div className='col-9'>
+                                <p className='jj'>Duis rutrum nisl urna. Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus. Suspendissendt enlane molestie turpis nec lacinia vehicula.</p>
+                            </div>
+                        </div>
+                    </button>
+
+                    <button type="button" class="btn btn-light panchsw">
+                        <div className='row'>
+                            <div className='col-3'>
+                                <p className='hhh'>300+</p>
+                                <p className='iiij'>Destinations</p>
+
+                            </div>
+                            <div className='col-9'>
+                                <p className='jj'>Duis rutrum nisl urna. Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus. Suspendissendt enlane molestie turpis nec lacinia vehicula.</p>
+                            </div>
+                        </div>
+                    </button>
+
+                    <button type="button" class="btn btn-light panchsw">
+                        <div className='row'>
+                            <div className='col-3'>
+                                <p className='hhh'>150+</p>
+                                <p className='iiij'>Mountains</p>
+
+                            </div>
+                            <div className='col-9'>
+                                <p className='jj'>Duis rutrum nisl urna. Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus. Suspendissendt enlane molestie turpis nec lacinia vehicula.</p>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+
+                <div className='col-6 clge'></div>
+            </div>
+
+            <div className='row guiderow'>
+                <h1 className='trgd'>Tour Guide</h1>
+                <div className='col-4'>
+                    <div class="card tour1" >
+                        <img class="card-img-top prm1" src="prem-sagar.png" alt="Card image cap"></img>
+                        <div class="card-body">
+                            <p class="card-text prmsgr">Prem Sagar - Himachal Pradesh</p>
+                            <p className='ter'>Tour Guide</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='col-4'>
+                    <div class="card tour1 " >
+                        <img class="card-img-top prm1" src="hadlee-renjith.png" alt="Card image cap"></img>
+                        <div class="card-body">
+                            <p class="card-text prmsgr">Hadlee Renjith - Munnar</p>
+                            <p className='ter'>Tour Guide</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div className='col-4'>
+                    <div class="card tour1" >
+                        <img class="card-img-top prm1" src="Anwar.png" alt="Card image cap"></img>
+                        <div class="card-body">
+                            <p class="card-text prmsgr">Anwar Wain - Gulmarg</p>
+                            <p className='ter'>Tour Guide</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div className='secondlast'>
+                <p className='dscvrsc'>DISCOVER HIMACHAL  SPIRITUAL JOURNEY  MEMERIZING CITY OF MANALI  MANJESTIC MANALI EX DELHI</p>
+                <p className='dscvrsc1'>SHIMLA BY CAR  SHIMLA YOY TRAIN  WEEKEND DELHI AGRA AND CHANDIGARH </p>
+                <p className='dscvrsc2'>SHIMLA TOY TRAIN  WEEKEND PERADISE HIMACHAL EX DELHI</p>
+
+                <h3 className='hmchl'>Himachal Trip Packages</h3>
+                <p className='dscvrsc2'>A UNIT OF INDIAN MOUNTAINS ROVER</p>
+                <p className='dscvrsc2'>Near Govt Printing press ,Lower Bazar MAnali</p>
+                <p className='dscvrsc2'>manali Highway ,NH205, HIMACHAL PRADESH</p>
+            </div>
+
+            <div className='footer'>
+                <p className='cpyright'>@Copyright All Right Reserved For "HIMACHAL TRIP PAKAGES" Desgn By YOLO TRAVELS</p>
+            </div>
+
+
+
+        </div>
+    )
 }
 
 export default About

@@ -42,6 +42,7 @@
   height: 60px;
   background: #DCDCDC;
 }
+
 /* #root{
   background-image: url(../public/shutterstock_479585620_20191024174904_20200407155734.jpg);
   background-repeat: no-repeat;
@@ -75,10 +76,10 @@
 
 .sctn {
   height: auto;
-  background-image: url(../public/manali.jpg);
+  background-image: url(../public/wp5165434.jpg);
   background-size: cover;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  
+
 }
 
 .firstrw {
@@ -154,13 +155,14 @@
   margin-right: 20%;
 
 }
+
 .aboutsctn {
   height: auto;
-  background-image: url(../public/istockphoto-155439315-612x612.jpg);
+  background-image: url(../public/gallary.jpg);
   background-size: cover;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  height: 500px;
-  
+  height: 400px;
+
 }
 
 .wlcm {
@@ -278,7 +280,8 @@
   margin-left: 20%;
   margin-right: 0px !important;
 }
-.ghi{
+
+.ghi {
   margin-right: 0px !important;
 }
 
@@ -370,10 +373,12 @@
   border-top: 1px solid black;
   border-bottom: 1px solid black;
 }
-.small{
+
+.small {
   font-size: 11px;
 }
-.small1{
+
+.small1 {
   font-size: 11px;
   color: #ED4545;
 }
@@ -420,7 +425,7 @@
   height: auto;
   background-color: #DCDCDC;
   margin-right: 0px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 }
 
 
@@ -485,6 +490,7 @@
   font-weight: 400;
   color: #ED4545;
 }
+
 .save1 {
   padding-top: 5%;
   padding-left: 6%;
@@ -510,26 +516,31 @@
   margin-bottom: 0px;
   padding-left: 32%;
 }
+
 .noneed3 {
   font-size: 13px;
   margin-bottom: 0px;
   padding-left: 18%;
 }
+
 .noneed4 {
   font-size: 13px;
   margin-bottom: 0px;
   padding-left: 25%;
 }
+
 .noneed5 {
   font-size: 13px;
   margin-bottom: 0px;
   padding-left: 18%;
 }
+
 .noneed6 {
   font-size: 13px;
   margin-bottom: 0px;
   padding-left: 30%;
 }
+
 .guardsrow {
   height: auto;
   margin-top: 10%;
@@ -632,7 +643,7 @@
 
 .cpyright {
   text-align: center;
-  color: white;
+  color: #ffc100;
   padding-top: 1%;
   font-size: 12px;
 }
@@ -642,11 +653,13 @@
   height: 100px;
   background-repeat: no-repeat;
 }
+
 .icondv1 {
   background-image: url(../public/icn2.png);
   height: 100px;
   background-repeat: no-repeat;
 }
+
 .icondv2 {
   background-image: url(../public/icn3.png);
   height: 100px;
@@ -658,30 +671,154 @@
   margin-left: 8%;
   margin-top: 4%;
 }
-.cstmize{
+
+.cstmize {
   margin-bottom: 2px
 }
-.solution{
+
+.solution {
   padding-left: 9%;
-  
+
 }
-.solution1{
+
+.solution1 {
   font-size: 10px;
 }
-.fight{
+
+.fight {
   padding-top: 25%;
   padding-left: 20%;
 }
-.high{
+
+.high {
   width: 24.666667%;
   padding-left: 3%;
 }
-.icnpdng{
+
+.icnpdng {
   margin-left: 2%;
 }
-.fight1{
+
+.fight1 {
   color: white;
   padding-top: 46%;
   padding-left: 85%;
 }
 
+.tenyear {
+  margin-top: 5%;
+  font-size: 17px;
+  height: 100px;
+  background-color: #ED4545;
+  width: 25%;
+  margin-left: 5%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.abtpgeab {
+  padding-top: 10%;
+  font-weight: 600;
+}
+
+.duis {
+  padding-top: 5%;
+  font-size: 14px;
+  padding-right: 0%;
+  color: gray;
+  padding-left: 3%;
+}
+
+.aboutus {
+  color: white;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.frstimg {
+  background-image: url(../public/backpacker-standing-sunrise-viewpoint-ja-bo-village-mae-hong-son-province-thailand-min.jpg);
+  height: 300px;
+  background-size: cover;
+  margin-top: 26%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.secondimg{
+  background-image: url(../public/private-tour-guide-india-10338094.webp);
+  height: 300px;
+  background-size: cover;
+  margin-top: 26%;
+  margin-left: 1%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 25px;
+}
+.packagebookmainrow{
+  height: 800px;
+  margin-top: 5%;
+  margin-left: 6%;
+  margin-right: 6%;
+}
+.pckg1{
+  padding-top: 10%;
+  font-weight: 600;
+}
+.panchsw{
+  width: 85%;
+  margin-top: 4%;
+  height: 120px;
+  border: 1px solid #ff0000;
+  
+}
+.hhh{
+  margin-bottom: 0px;
+  font-size: 27px;
+  padding-right: 33%;
+  padding-top: 5%;
+  color: #ff0000;
+  font-weight: 600;
+}
+.iii{
+  color: #ff0000;
+  font-size: 15px;
+}
+.iiij{
+  color: #ff0000;
+  padding-right: 13%;
+}
+
+
+.jj{
+  font-size: 14px;
+  padding-top: 3%;
+  color: gray;
+}
+.clge{
+  background-image:url(../public/collage.png);
+  background-size: cover;
+  height: 72%;
+  margin-top: 3%;
+}
+.tour1{
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.guiderow ,.mrgnrew{
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-bottom: 5%;
+}
+.prm1{
+  height: 300px;
+}
+.prmsgr{
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+  padding-top: 5%;
+}
+.trgd{
+  text-align: center;
+  padding-bottom: 5%;
+}
+.ter{
+  text-align: center;
+
+}
