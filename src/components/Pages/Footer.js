@@ -3,9 +3,10 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='footer'>
-        <p className='cpyright'>@Copyright All Right Reserved For "HIMACHAL TRIP PAKAGES" Desgn By YOLO TRAVELS</p>
-      
+      <p className='cpyright'>@ Copyright All Right Reserved For "THE YOLO TRAVELS" Design By MILLIYUNIUM SOFT</p>
     </div>
+
+
   )
 }
 

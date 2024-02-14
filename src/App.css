@@ -102,7 +102,7 @@
 
 .secondrw {
   height: 70px;
-  width: 60%;
+  width: 63%;
   background-color: white;
   margin-left: 20%;
   margin-top: 1%;
@@ -118,6 +118,20 @@
 .hme1 {
   font-size: 15px;
   font-weight: 500;
+}
+
+.dropbtn {
+  padding: 8px !important;
+  font-size: 15px !important;
+  font-weight: 500 !important;
+  color: black !important;
+  background-color: white !important;
+  border: none;
+
+}
+
+a:hover {
+  color: rgb(255, 115, 0);
 }
 
 .logo {
@@ -152,13 +166,17 @@
 
 .thirdrw {
   margin-left: 20%;
-  margin-right: 20%;
+  margin-right: 17%;
 
+}
+
+.aboutthirdrw {
+  margin-right: 0px;
 }
 
 .aboutsctn {
   height: auto;
-  background-image: url(../public/gallary.jpg);
+  background-image: url(../public/bnr2.webp);
   background-size: cover;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   height: 400px;
@@ -225,6 +243,7 @@
 .servicing {
   height: 100px;
   background-color: #ED4545;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .sevc {
@@ -576,7 +595,7 @@
 }
 
 .atmcrdsrow {
-  height: 50px;
+  height: 46px;
   margin-top: 20%;
   margin-right: -14%;
 }
@@ -606,7 +625,7 @@
 }
 
 .secondlast {
-  height: 400px;
+  height: auto;
   background-color: black;
 }
 
@@ -625,8 +644,8 @@
 .dscvrsc2 {
   color: white;
   text-align: center;
-  padding-top: 0%;
-  margin-bottom: 5px;
+  margin-bottom: 0px;
+  padding-bottom: 20px;
 
 }
 
@@ -741,7 +760,8 @@
   margin-top: 26%;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.secondimg{
+
+.secondimg {
   background-image: url(../public/private-tour-guide-india-10338094.webp);
   height: 300px;
   background-size: cover;
@@ -750,24 +770,29 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 25px;
 }
-.packagebookmainrow{
+
+.packagebookmainrow {
   height: 800px;
   margin-top: 5%;
   margin-left: 6%;
   margin-right: 6%;
 }
-.pckg1{
+
+.pckg1 {
   padding-top: 10%;
   font-weight: 600;
 }
-.panchsw{
+
+.panchsw {
   width: 85%;
   margin-top: 4%;
   height: 120px;
   border: 1px solid #ff0000;
-  
+  box-shadow: 3px 5px 35px rgba(86, 68, 169, 0.1);
+
 }
-.hhh{
+
+.hhh {
   margin-bottom: 0px;
   font-size: 27px;
   padding-right: 33%;
@@ -775,50 +800,1026 @@
   color: #ff0000;
   font-weight: 600;
 }
-.iii{
+
+.iii {
   color: #ff0000;
   font-size: 15px;
 }
-.iiij{
+
+.iiij {
   color: #ff0000;
   padding-right: 13%;
 }
 
 
-.jj{
+.jj {
   font-size: 14px;
   padding-top: 3%;
   color: gray;
 }
-.clge{
-  background-image:url(../public/collage.png);
+
+.clge {
+  background-image: url(../public/collage.png);
   background-size: cover;
   height: 72%;
   margin-top: 3%;
 }
-.tour1{
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
+.tour1 {
+  box-shadow: 3px 5px 35px rgba(86, 68, 169, 0.1);
 }
-.guiderow ,.mrgnrew{
+
+.guiderow,
+.mrgnrew {
   margin-left: 6%;
   margin-right: 6%;
   margin-bottom: 5%;
 }
-.prm1{
+
+.prm1 {
   height: 300px;
 }
-.prmsgr{
+
+.prmsgr {
   font-size: 20px;
   text-align: center;
   font-weight: 500;
   padding-top: 5%;
 }
-.trgd{
+
+.trgd {
   text-align: center;
   padding-bottom: 5%;
 }
-.ter{
+
+.ter {
   text-align: center;
 
+}
+
+.rwy {
+  margin-left: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 0px;
+}
+
+.igms1 {
+  height: 400px;
+  background-image: url(../public/clsntr.jpg);
+  background-repeat: no-repeat;
+}
+
+.cntct {
+  padding-left: 10%;
+}
+
+.cntctbtn {
+  height: 110px;
+  width: 100%;
+  margin-left: 10%;
+  margin-top: 2%;
+  border: 1px solid #ff0000;
+  border-top-right-radius: 70px;
+  box-shadow: 3px 5px 35px rgba(86, 68, 169, 0.1);
+}
+
+.lets {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 5px;
+  padding-right: 77%;
+}
+
+.lets1 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  padding-right: 65%;
+}
+
+.lets2 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  padding-right: 17%;
+}
+
+.lets3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  padding-right: 12%;
+}
+
+.lets4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  padding-right: 20%;
+}
+
+.lets5 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  padding-right: 68%;
+}
+
+.mainboxinput {
+  height: auto;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+  box-shadow: 3px 5px 35px rgba(86, 68, 169, 0.1);
+}
+
+.gt {
+  padding-top: 2%;
+  padding-left: 4%;
+}
+
+.gt1 {
+  font-weight: 200;
+  padding-top: 3px;
+  padding-left: 4%;
+}
+
+.inptyrwe {
+  margin-left: 2%;
+  margin-top: 3%;
+  margin-right: 2%;
+}
+
+.inptyrwe1 {
+  margin-left: 0%;
+  margin-top: 3%;
+}
+
+
+.cnjhty {
+  width: 100%;
+  height: 50px;
+  border-radius: 26px;
+  border: 1px solid #ff0000;
+  font-size: 11px;
+  padding-left: 4%;
+}
+
+.cnjhty1 {
+  width: 100%;
+  height: 200px;
+  border-radius: 26px;
+  border: 1px solid #ff0000;
+  font-size: 11px;
+  padding-left: 4%;
+
+}
+
+.nbh {
+  padding-left: 3%;
+  margin-bottom: 3%;
+}
+
+.onme {
+  height: 60px;
+  width: 20%;
+  margin-top: 3%;
+  margin-left: 1%;
+  border-radius: 30px;
+  margin-bottom: 3%;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.pckgrow {
+  height: 300px;
+  margin-left: 7%;
+  margin-top: 6%;
+  margin-right: 7%;
+
+}
+
+.griddiv {
+  height: auto;
+  margin-bottom: 10%;
+}
+
+.cr1 {
+  box-shadow: 3px 5px 35px rgba(86, 68, 169, 0.1);
+  border: none;
+}
+
+.crd22 {
+  margin-right: 0%;
+  height: 200px;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(../public/manali-himachal-pardesh-mandi.jpg);
+}
+
+.crd23 {
+  margin-right: 0%;
+  height: 200px;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(../public/shimla-manali-tour-package.jpg);
+}
+
+.crd24 {
+  margin-right: 0%;
+  height: 200px;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(../public/mountain-3092438_640.jpg);
+}
+
+.crd25 {
+  margin-right: 0%;
+  height: 200px;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(../public/491973192.jpg);
+}
+
+.crd26 {
+  margin-right: 0%;
+  height: 200px;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(../public/lahaul-spiti-hp-india-june-260nw-1129297934.webp);
+}
+
+.crd27 {
+  margin-right: 0%;
+  height: 200px;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(../public/chandratal-lake.jpg);
+}
+
+.crd28 {
+  margin-right: 0%;
+  height: 200px;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(../public/0lu6tfEK2w.jpg);
+}
+
+.crd29 {
+  margin-right: 0%;
+  height: 200px;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(../public/shimla-kullu-manali-chandigarh-tour-packages-500x500.webp);
+}
+
+.crd30 {
+  margin-right: 0%;
+  height: 200px;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(../public/625432-hills-india-village-cricket-travel-asia-sky.jpg);
+}
+
+.crd31 {
+  margin-right: 0%;
+  height: 200px;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(../public/maxresdefault.jpg);
+}
+
+.crd32 {
+  margin-right: 0%;
+  height: 200px;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(../public/146.jpg);
+}
+
+.crd33 {
+  margin-right: 0%;
+  height: 200px;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(../public/14155352197_f8db31d647_b.jpg);
+}
+
+.crd34 {
+  margin-right: 0%;
+  height: 200px;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(../public/shimla-feature-compressed.jpg);
+}
+
+.crd35 {
+  margin-right: 0%;
+  height: 200px;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(../public/145.jpg);
+}
+
+.crd36 {
+  margin-right: 0%;
+  height: 200px;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(../public/2ayf4tt.jpg);
+}
+
+.crd37 {
+  margin-right: 0%;
+  height: 200px;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(../public/jpg.webp);
+}
+
+.from {
+  margin-bottom: 0px;
+  font-size: 12px;
+  padding-top: 5%;
+}
+
+.from1 {
+  color: red;
+}
+
+.book1 {
+  margin-top: 10%;
+  width: 95%;
+  background-color: #ED4545;
+}
+
+.bnyu {
+  margin-left: 37%;
+  margin-right: 37%;
+  margin-bottom: 5%;
+}
+
+.rfg {
+  border-radius: 10px;
+  height: 100%;
+  width: 60px;
+  font-weight: 700;
+  padding-top: 10%;
+  background-color: #ED4545;
+
+}
+
+.sidebarrow {
+  margin-left: 5%;
+  box-shadow: rgba(86, 68, 169, 0.1) 3px 5px 35px;
+}
+
+.sideclm {
+  margin-right: 0%;
+  height: 200px;
+  background-size: cover;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-image: url(../public/manali-himachal-pardesh-mandi.jpg);
+}
+
+.srchhre {
+  height: 150px;
+  margin-left: 3%;
+  box-shadow: rgba(86, 68, 169, 0.1) 3px 5px 35px;
+}
+
+.srchhre1 {
+  margin-top: 2%;
+  height: 300px;
+  box-shadow: rgba(86, 68, 169, 0.1) 3px 5px 35px;
+  margin-left: 3%;
+}
+
+.srchhre2 {
+  margin-top: 20%;
+  height: 300px;
+  box-shadow: rgba(86, 68, 169, 0.1) 3px 5px 35px;
+  margin-left: 3%;
+}
+
+.bgst {
+  text-align: center;
+  padding-top: 20%;
+  color: white;
+  font-weight: 500;
+}
+
+.bgst1 {
+  font-size: 55px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+  height: 60px;
+  margin-bottom: 0px;
+}
+
+.bgst2 {
+  font-size: 55px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+
+.bknw {
+  margin-left: 40%;
+  border-radius: 20px;
+  font-size: 10px;
+}
+
+.shere {
+  padding-top: 3%;
+  padding-left: 7%;
+  height: 60px;
+  border-bottom: 1px solid #d7d7d7;
+}
+
+.bxinpty {
+  height: 50px;
+  width: 90%;
+  border-radius: 25px;
+  margin-left: 5%;
+  font-size: 12px;
+  padding-left: 5%;
+}
+
+.sdbtn {
+  height: 50px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: -15%;
+}
+
+.yrk {
+  margin-bottom: 0px;
+  height: 0px;
+  padding-left: 7%;
+  padding-bottom: 7%;
+}
+
+.ck1 {
+  height: 25px;
+  width: 20px;
+}
+
+.chklk {
+  padding-left: 20%;
+}
+
+.ofseventy {
+  height: 320px;
+  width: 70%;
+  margin-left: 20%;
+  background-image: url(../public/Himachal-2.webp);
+  background-size: cover;
+}
+
+.ofseventy1{
+  height: 320px;
+  width: 70%;
+  margin-left: 20%;
+  background-image: url(../public/Himachal-2.webp);
+  background-size: cover;
+  margin-top: 10%;
+}
+.detailsrow {
+  margin-left: 8%;
+  margin-top: 5%;
+  margin-right: 0px;
+}
+
+.topdurationrow {
+  height: 70px;
+}
+
+.drtn {
+  font-size: 15px;
+  padding-top: 17%;
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+
+.stpwatch {
+  margin-top: 50%;
+  color: #ff6464;
+}
+
+.fr {
+  font-size: 13px;
+}
+
+.tjmhl {
+  background-image: url(../public/ngrnigam.jpg);
+  height: 500px;
+  background-size: cover;
+  margin-top: 3%;
+}
+
+.nji {
+  padding: 0px;
+}
+
+.snk {
+  padding-top: 2%;
+  font-size: 20px;
+  font-weight: 500;
+  color: red;
+  margin-bottom: 1px;
+}
+
+.twnhl {
+  font-size: 35px;
+  font-weight: 600;
+  border-bottom: 1px solid #cccccc;
+}
+
+.ngrbtn {
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  font-weight: 500;
+  
+}
+
+.ngrbtn1 {
+  width: 100%;
+  height: 50px;
+  border-radius: 25px;
+  font-weight: 500;
+  background-color: white;
+  color: black;
+  border: 2px solid red;
+}
+
+.dtlbtnrow {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+.pkgdtl {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.twnhdng {
+  padding-top: 2%;
+  line-height: 40px;
+  color: gray;
+}
+
+.image1 {
+  background-image: url(../public/hotel-facade.jpg);
+  height: 200px;
+  background-size: cover;
+  margin-right: 5%;
+  margin-left: 2%;
+}
+
+.image2 {
+  background-image: url(../public/expediav2-2404565-2d8eda-143035.jpg);
+  height: 200px;
+  background-size: cover;
+}
+
+.imagerow {
+  margin-top: 5%;
+}
+
+.detailsmaindiv {
+  height: auto;
+  margin-top: 5%;
+  box-shadow: rgba(86, 68, 169, 0.1) 3px 5px 35px;
+}
+
+.destination {
+  font-size: 16px;
+  padding-top: 10%;
+  padding-left: 25%;
+  font-weight: 500;
+}
+
+.dstnationclm {
+  border-right: 1px solid rgb(215, 215, 215);
+}
+
+.shimla {
+  font-size: 16px;
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+.brdrrew {
+  border-bottom: 1px solid rgb(215, 215, 215);
+  width: 100%;
+  margin-left: 0%;
+}
+
+.brdrrew1 {
+  border-bottom: 1px solid rgb(215, 215, 215);
+  width: 100%;
+  margin-left: 0%;
+  margin-bottom: 2%;
+}
+
+.trvlbus {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  padding-right: 69%;
+}
+
+.bs {
+  margin-left: 90%;
+  color: red;
+}
+
+.ovrvw {
+  font-size: 35px;
+  padding-top: 5%;
+  font-weight: 500;
+}
+
+.overviewdiv {
+  height: auto;
+  box-shadow: rgba(86, 68, 169, 0.1) 3px 5px 35px;
+}
+
+.tens {
+  font-size: 48px;
+  font-weight: 600;
+  padding-left: 25%;
+  padding-top: 50%;
+  /* padding-bottom: 47%; */
+  margin-bottom: 1px;
+  color: red;
+}
+
+.grayclr {
+  background-color: rgb(222, 222, 222);
+  box-shadow: rgba(86, 68, 169, 0.1) 3px 5px 35px
+}
+
+.overviewrow {
+  margin-left: 0%;
+}
+
+.exlnt {
+  font-size: 25px;
+  padding-left: 27%;
+  margin-bottom: 30%;
+}
+
+.Accommodation {
+  font-size: 16px;
+  padding-top: 5%;
+  padding-left: 5%;
+  margin-bottom: 5px;
+}
+
+.rnge {
+  width: 90%;
+  margin-left: 5%;
+}
+
+.rnge1 {
+  width: 90%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+
+.imagess1 {
+  height: 140px;
+  background-image: url(../public/beautiful.avif);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.imagess2 {
+  height: 140px;
+  background-image: url(../public/handsom.webp);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.imagess3 {
+  height: 140px;
+  background-image: url(../public/1000.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.imgsrow {
+  margin-top: 10%;
+  margin-left: 0%;
+}
+
+.imgsrow1 {
+  margin-top: 2%;
+  margin-left: 0%;
+}
+
+.slvpry {
+  font-size: 20px;
+  padding-top: 2%;
+  padding-left: 3%;
+  margin-bottom: 5px;
+}
+
+.two {
+  padding-left: 3%;
+  font-size: 10px;
+  color: red;
+}
+
+.mrbii {
+  padding-left: 3%;
+  font-size: 14px;
+  line-height: 25px;
+  color: gray;
+}
+
+.rply {
+  padding-left: 3%;
+}
+
+.vacmnts {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.leavecommentform {
+  height: auto;
+  box-shadow: rgba(86, 68, 169, 0.1) 3px 5px 35px;
+  margin-top: 10%;
+}
+
+.lvecmnt {
+  font-size: 25px;
+  padding-top: 3%;
+  padding-left: 9%;
+  font-weight: 500;
+  margin-bottom: 5%;
+}
+
+.bux1 {
+  margin-left: 20%;
+  height: 50px;
+  width: 100%;
+  border-radius: 25px;
+  border: 1px solid red;
+  padding-left: 7%;
+  font-size: 11px;
+}
+
+.bux2 {
+  margin-left: 9%;
+  height: 50px;
+  width: 81%;
+  border-radius: 25px;
+  border: 1px solid red;
+  padding-left: 3%;
+  font-size: 11px;
+  margin-top: 4%;
+}
+
+.bux3 {
+  margin-left: 9%;
+  height: 50px;
+  width: 81%;
+  border-radius: 25px;
+  border: 1px solid red;
+  padding-left: 7%;
+  font-size: 11px;
+  margin-top: 4%;
+  height: 200px;
+}
+
+.lstbyt {
+  width: 20%;
+  margin-left: 9%;
+  margin-top: 3%;
+  height: 50px;
+  border-radius: 25px;
+  margin-bottom: 4%;
+}
+
+.booktour {
+  height: auto;
+  box-shadow: rgba(86, 68, 169, 0.1) 3px 5px 35px;
+  margin-left: 8%;
+  margin-top: 10%;
+}
+.booktour1{
+  height: 300px;
+  box-shadow: rgba(86, 68, 169, 0.1) 3px 5px 35px;
+  margin-left: 8%;
+  margin-top: 10%;
+}
+
+.inrdiv1 {
+  height: 50px;
+  background: rgb(22, 43, 50);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.bnkk {
+  color: white;
+  font-size: 20px;
+  padding-top: 2%;
+  padding-left: 5%;
+  font-weight: 500;
+
+}
+
+.bkthis {
+  margin-left: 5%;
+  height: 50px;
+  width: 90%;
+  border-radius: 25px;
+  border: 1px solid red;
+  padding-left: 7%;
+  font-size: 11px;
+  margin-top: 10%;
+}
+
+.bkthis1 {
+  margin-left: 5%;
+  height: 50px;
+  width: 90%;
+  border-radius: 25px;
+  border: 1px solid red;
+  padding-left: 7%;
+  font-size: 11px;
+  margin-top: 5%;
+}
+
+.bkthis2 {
+  margin-left: 5%;
+  height: 50px;
+  width: 90%;
+  border-radius: 25px;
+  border: 1px solid red;
+  padding-left: 15%;
+  font-size: 11px;
+  margin-top: 5%;
+}
+
+.bkthis3 {
+  margin-left: 5%;
+  height: 50px;
+  width: 90%;
+  border-radius: 25px;
+  border: 1px solid red;
+  padding-left: 6%;
+  font-size: 11px;
+  margin-top: 5%;
+}
+
+.kju {
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 5%;
+  height: 50px;
+  border-radius: 25px;
+  margin-bottom: 10%;
+}
+
+.chldrw {
+  margin-left: 0%;
+  margin-top: 3%;
+  margin-right: 0%;
+
+}
+
+.ofr {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 3%;
+  font-weight: 500;
+}
+
+.bnhh {
+  margin-bottom: 10%;
+}
+
+.offerboximage {
+  height: 100px;
+  background-image: url(../public/lobby.jpg);
+  background-size: cover;
+}
+.offerboximage1 {
+  height: 100px;
+  background-image: url(../public/360_F_171191968_h1yWvnUTa0MM6iIBnGdAHZeUAJEh9dBh.jpg);
+  background-size: cover;
+}
+.offerboximage2{
+  height: 100px;
+  background-image: url(../public/0lu6tfEK2w.jpg);
+  background-size: cover;
+}
+
+.offerboximage3{
+  height: 100px;
+  background-image: url(../public/424061439.jpg);
+  background-size: cover;
+  margin-bottom: 10%;
+}
+
+
+.offerboxrow {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+
+.fan {
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.frmm{
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+.frmm1{
+ color: red;
+}
+.packageebtn{
+  margin-left: 3%;
+  margin-top: 4%;
+  background-color: white;
+  color: black;
+}
+.packageebtn1{
+  margin-left: 3%;
+  margin-top: 4%;
+  background-color: white;
+  color: black;
+  width: 100%;
+}
+.btnclmm1 ,.btnclmm2{
+  margin-left: 5%;
+}
+.pckggroww{
+  margin-left: 2%;
+  margin-top: 10%;
+}
+.pckggroww1{
+  margin-left: 2%;
+  margin-top: 2%;
+}
+.btnclmm4{
+  margin-left: 5%;
+  width: 32%;
 }

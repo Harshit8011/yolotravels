@@ -54,13 +54,20 @@ const Section1 = () => {
                                         <Link to="/home"><a class="nav-link hme1" href="#">HOME</a></Link>
                                     </li>
                                     <li class="nav-item">
-                                    <Link to="/about"><a class="nav-link hme1" href="#">ABOUT</a></Link>    
+                                        <Link to="/about"><a class="nav-link hme1" href="#">ABOUT</a></Link>
                                     </li>
                                     <li class="nav-item">
-                                    <Link to="/packages"> <a class="nav-link hme1" href="#">PACKAGES</a></Link>   
+                                        <div class="dropdown">
+                                            <button class="dropbtn nav-link"><a>PACKAGES</a></button>
+                                            <div class="dropdown-content">
+                                                <Link to="/packagegrid">Package Grid</Link>
+                                                <Link to="/packageslidebar">package Sidebar</Link>
+                                                <Link to="/packagedetails">package Details</Link>
+                                            </div>
+                                        </div>
                                     </li>
                                     <li class="nav-item">
-                                    <Link to="/contact"><a class="nav-link hme1" href="#">CONTACT US</a></Link> 
+                                        <Link to="/contact"><a class="nav-link hme1" href="#">CONTACT US</a></Link>
                                     </li>
                                 </ul>
                             </div>
