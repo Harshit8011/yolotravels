@@ -59,7 +59,7 @@ const About = () => {
                                         <Link to="/about"><a class="nav-link hme1" href="#">ABOUT</a></Link>
                                     </li>
                                     <li class="nav-item">
-                                    <div class="dropdown">
+                                        <div class="dropdown">
                                             <button class="dropbtn nav-link"><a>PACKAGES</a></button>
                                             <div class="dropdown-content">
                                                 <Link to="/packagegrid">Package Grid</Link>
@@ -81,7 +81,7 @@ const About = () => {
                     <h1 className='aboutus'>About Us</h1>
                 </div>
             </div>
-            
+
             <div className='row mrgnrew'>
                 <div className='col-6'>
                     <div className='row'>
@@ -96,7 +96,9 @@ const About = () => {
                         <button type="button" class="btn btn-danger tenyear">100+<br></br>Tour Guide</button>
                         <button type="button" class="btn btn-danger tenyear">500+<br></br>Traveler Connect</button>
                     </div>
-                    <p className='duis'>Duis rutrum nisl urna. Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus. Suspendissendt blandit interdum. Sed pellentesque at nunc eget consente consectetur.Duis rutrum nisl urna. Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus. Suspendissendt blandit interdum. Sed pellentesque at nunc consectetur.Duis rutrum nisl urna. Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus. Suspendissendt blandit interdum. Sed pellentesque at nunc consectetur.Duis rutrum nisl urna. Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus. Suspendissendt blandit interdum. Sed pellentesque at nunc consectetur.</p>
+                    <p className='duis'>Travelling is one of the best hobbies that one can have. Travelling offers an opportunity for adventure, it satisfies one’s sense of beauty and gives one a feeling of power over the things around him. It also helps one to see someone else’s point of view. It opens up many new worlds to the traveller
+                        Now a day many of us turn to the television or films to fight our boredom. Real adventure is not undertaken by many of us. The entertainment that the television can provide is pale in comparison to what adventure can provide.
+                        One of the main reasons that one travels is to go in search of beauty. Beautiful tourist resorts often attract many people. When one travels, one witnesses the beauty of certain places and one cannot help being inspired by them.</p>
                 </div>
             </div>
 
@@ -111,7 +113,7 @@ const About = () => {
 
                             </div>
                             <div className='col-9'>
-                                <p className='jj'>Duis rutrum nisl urna. Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus. Suspendissendt enlane molestie turpis nec lacinia vehicula.</p>
+                                <p className='jj'>There is a very famous quote by Hellen Keller, “Life is either a daring adventure or nothing.” An adventure is something challenging.</p>
                             </div>
                         </div>
                     </button>
@@ -124,7 +126,7 @@ const About = () => {
 
                             </div>
                             <div className='col-9'>
-                                <p className='jj'>Duis rutrum nisl urna. Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus. Suspendissendt enlane molestie turpis nec lacinia vehicula.</p>
+                                <p className='jj'>There is a very famous quote by Hellen Keller, “Life is either a daring adventure or nothing.” An adventure is something challengin.</p>
                             </div>
                         </div>
                     </button>
@@ -137,7 +139,7 @@ const About = () => {
 
                             </div>
                             <div className='col-9'>
-                                <p className='jj'>Duis rutrum nisl urna. Maecenas vel libero faucibus nisi venenatis hendrerit a id lectus. Suspendissendt enlane molestie turpis nec lacinia vehicula.</p>
+                                <p className='jj'>The lush green mountains surrounding the windy roads looked majestic and fascinating;.</p>
                             </div>
                         </div>
                     </button>
@@ -179,22 +181,22 @@ const About = () => {
 
             </div>
             <div className='secondlast'>
-            <p className='dscvrsc'>PRIVATE TOURS , EDUCATIONAL TOURS , GROUP TOURS , TOUR PICK-UP SERVICE , CITY TOURS , SIGHTSEEING TOURS , CUSTOMIZE PACKAGE , CYCLING TOUR</p>
-            <p className='dscvrsc1'>CAB TOUR , CAMPING TOUR , CAR BOOKING , CAR TOUR , CULTURAL TOURS , FULL DAY TOUR , HILL STATION TOUR , HOLIDAY PACKAGE  </p>
-            <p className='dscvrsc1'>DESTINATION MANAGEMENT , DOMENSTIC PACAKGE , FULL DAY EXURSION  ,HOTEL PACKAGES , INTERNATIONAL PACKAGES </p>
-            <p className='dscvrsc1'>HOLIDAY TOUR , HONEYMOON PACKAGE , HONEYMOON SPECIAL TOUR , HOTEL BOOKING ,  TOUR PACKAGE TOUR  </p>
-            <p className='dscvrsc1'>LEH LADAKH TOUR , MEAL PLAN , MOTORBIKE TOUR , RAJASTHAN TOUR , RIVER RAFITING </p>
-            <p className='dscvrsc1'>TRANSPORT SERVICES , TREKKING TOUR , TRAVEL PACKAGES  </p>
-            <p className='dscvrsc1'>TEMPLE TOUR PACKAGE  </p>
+                <p className='dscvrsc'>PRIVATE TOURS , EDUCATIONAL TOURS , GROUP TOURS , TOUR PICK-UP SERVICE , CITY TOURS , SIGHTSEEING TOURS , CUSTOMIZE PACKAGE , CYCLING TOUR</p>
+                <p className='dscvrsc1'>CAB TOUR , CAMPING TOUR , CAR BOOKING , CAR TOUR , CULTURAL TOURS , FULL DAY TOUR , HILL STATION TOUR , HOLIDAY PACKAGE  </p>
+                <p className='dscvrsc1'>DESTINATION MANAGEMENT , DOMENSTIC PACAKGE , FULL DAY EXURSION  ,HOTEL PACKAGES , INTERNATIONAL PACKAGES </p>
+                <p className='dscvrsc1'>HOLIDAY TOUR , HONEYMOON PACKAGE , HONEYMOON SPECIAL TOUR , HOTEL BOOKING ,  TOUR PACKAGE TOUR  </p>
+                <p className='dscvrsc1'>LEH LADAKH TOUR , MEAL PLAN , MOTORBIKE TOUR , RAJASTHAN TOUR , RIVER RAFITING </p>
+                <p className='dscvrsc1'>TRANSPORT SERVICES , TREKKING TOUR , TRAVEL PACKAGES  </p>
+                <p className='dscvrsc1'>TEMPLE TOUR PACKAGE  </p>
 
-            <h3 className='hmchl'>The Yolo Travels</h3>
-            <p className='dscvrsc2'>A TOUR AND TRAVEL MANAGEMENT COMPANY </p>
-            <p className='dscvrsc2'>Village Manla , P.O Neri , Summerhill.</p>
-            <p className='dscvrsc2'>Shimla,Himachal Pradesh (1711003)</p>
-        </div>
+                <h3 className='hmchl'>The Yolo Travels</h3>
+                <p className='dscvrsc2'>A TOUR AND TRAVEL MANAGEMENT COMPANY </p>
+                <p className='dscvrsc2'>Village Manla , P.O Neri , Summerhill.</p>
+                <p className='dscvrsc2'>Shimla,Himachal Pradesh (1711003)</p>
+            </div>
 
             <div className='footer'>
-            <p className='cpyright'>@ Copyright All Right Reserved For "THE YOLO TRAVELS" Design By MILLIYUNIUM SOFT</p>
+                <p className='cpyright'>@ Copyright All Right Reserved For "THE YOLO TRAVELS" Design By MILLIYUNIUM SOFT</p>
             </div>
 
 
